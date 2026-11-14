@@ -2,7 +2,7 @@
     --primary-color: #000;
     --secondary-color: #ddd;
     --accent1-color: #255;
-    --accent2-color: #335;
+    /* --accent2-color: #335; */
     --heading-font: "Times New Roman", "Georgia", Serif;
     --body-font: Arial, Helvetica, Sans-Serif;
 }
@@ -64,7 +64,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
 }
 
