@@ -1,3 +1,14 @@
+/* Rule for the universal selector */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* :root {
+    --text-align: center;
+} */
+/* styling for the all page */
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -19,6 +30,8 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    /* profile image float to the right */
+    float: right;
 }
 
 p {
@@ -31,12 +44,8 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -44,8 +53,23 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* class selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    background-color: #ddd;
+    color: #000;
 }
