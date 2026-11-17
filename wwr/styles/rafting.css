@@ -36,6 +36,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    color: var(--secondary-color);
 }
 
 .socialmedia a {
@@ -74,9 +75,6 @@ h1 {
 
 h2 {
     position: relative;
-    /* text-align: center;
-    background-color: var(--accent2-color);
-    width: 75%; */
     top: 20px;
     width: 100%;
     padding: 16px;
