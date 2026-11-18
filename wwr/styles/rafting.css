@@ -71,7 +71,7 @@ h1 {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
     width: 100%;
 }
 
