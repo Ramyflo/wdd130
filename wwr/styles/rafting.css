@@ -1,9 +1,15 @@
 :root {
-    --primary-color: #000;
-    --secondary-color: #ddd;
+    --primary-color: #fff;
+    --secondary-color: #9a2315;
     --accent1-color: #255;
+    --accent2-color: #264653;
     --heading-font: "Times New Roman", "Georgia", Serif;
     --body-font: Arial, Helvetica, Sans-Serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 * {
@@ -65,21 +71,44 @@ h1 {
 }
 
 .hero article {
-    position: absolute;
+    position: relative;
+    width: 100%;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    box-shadow: #fff;
+    margin: 50px;
+    border: 1px solid #ddd;
+}
+
+.hero article p {
+    top: 20px;
+    width: 100%;
+    padding: 30px;
+    color: #000;
+    position: relative;
+    background-color: var(--accent1-color);
+    opacity: 0.5;
 }
 
 h2 {
     position: relative;
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 8px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+    opacity: 0.6;
+    background-color: var(--secondary-color);
+    color: darkblue;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #000;
 }
