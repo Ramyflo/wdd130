@@ -8,6 +8,9 @@ body {
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .flex-item {
@@ -21,6 +24,9 @@ body {
 
 .item1 {
     min-height: 100px;
+    color: blue;
+    background-color: aquamarine;
+    border-radius: 15px;
 }
 
 .item2 {
