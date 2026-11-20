@@ -35,7 +35,7 @@ nav a {
 
 h1 {
     color: darkblue;
-    bottom: border;
+    border-bottom: 0.5px solid #777;
 }
 
 main img {
